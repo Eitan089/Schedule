@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/eitan/Code/Schedule/Schedule3/Schedule3.csproj": {}
+    "/home/eitan-av/Code/Schedule/Schedule3/Schedule3.csproj": {}
   },
   "projects": {
-    "/home/eitan/Code/Schedule/Schedule3/Schedule3.csproj": {
+    "/home/eitan-av/Code/Schedule/Schedule3/Schedule3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eitan/Code/Schedule/Schedule3/Schedule3.csproj",
+        "projectUniqueName": "/home/eitan-av/Code/Schedule/Schedule3/Schedule3.csproj",
         "projectName": "Schedule3",
-        "projectPath": "/home/eitan/Code/Schedule/Schedule3/Schedule3.csproj",
-        "packagesPath": "/home/eitan/.nuget/packages/",
-        "outputPath": "/home/eitan/Code/Schedule/Schedule3/obj/",
+        "projectPath": "/home/eitan-av/Code/Schedule/Schedule3/Schedule3.csproj",
+        "packagesPath": "/home/eitan-av/.nuget/packages/",
+        "outputPath": "/home/eitan-av/Code/Schedule/Schedule3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/eitan/.nuget/NuGet/NuGet.Config"
+          "/home/eitan-av/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -53,6 +54,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.20, 8.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.20, 8.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
