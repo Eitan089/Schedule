@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "3hALQwa+I0k=",
+  "dgSpecHash": "/6la1GmxkVU=",
   "success": true,
   "projectFilePath": "/home/eitan-av/Code/Schedule/Schedule3/Schedule3.csproj",
   "expectedPackageFiles": [
-    "/home/eitan-av/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
     "/home/eitan-av/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
     "/home/eitan-av/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.20/microsoft.netcore.app.host.linux-x64.8.0.20.nupkg.sha512"
   ],
